@@ -1,0 +1,25 @@
+# Maven build output
+target/
+
+# Eclipse
+.settings/
+.classpath
+.project
+.factorypath
+
+# IntelliJ (in case Shreya uses it)
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local DB credentials — NEVER commit real passwords
+src/main/resources/db.properties
